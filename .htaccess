@@ -1,0 +1,19 @@
+RewriteEngine On 
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+#menu principal
+RewriteRule ^index$ views/index.php
+RewriteRule ^adhesion$ views/adhesion.php
+RewriteRule ^contact$ views/contact.php
+RewriteRule ^faire_don$ views/faire_don.php
+RewriteRule ^galerie$ views/galerie.php
+RewriteRule ^realisations$ views/realisations.php
+RewriteRule ^sommes_nous$ views/sommes_nous.php
+
+#formulaire
+
+RewriteRule ^tcontact$ controllers/authentification/contact.php
+RewriteRule ^adhesion$ controllers/authentification/adhesion.php
+RewriteRule ^newsletter$ controllers/authentification/newsletter.php

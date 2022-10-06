@@ -1,0 +1,17 @@
+https://www.styleshout.com/templates/preview/Advent10/
+
+https://www.google.com/search?q=template+coming+soon&rlz=1C1AVFA_frMA906MA906&oq=template+coming+soon&aqs=chrome..69i57j0l7.4364j0j7&sourceid=chrome&ie=UTF-8
+plugins counter jquery
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+associationpjcd@gmail.com(Apjcd@0033 ===> Mot de passe)
+paypal.me/associationpjcd(Associationpjcd@0033)
+
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="VYSG4BFRA9BHS" />
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Bouton Faites un don avec PayPal" />
+<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+</form>

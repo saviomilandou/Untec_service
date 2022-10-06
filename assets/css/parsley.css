@@ -1,0 +1,20 @@
+.error {
+    color: red;
+}
+.parsley-error {
+    border-color: #ec4561;
+}
+.parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.parsley-errors-list.filled {
+    display: block;
+}
+.parsley-errors-list > li {
+    font-size: 12px;
+    list-style: none;
+    color: #ec4561;
+    margin-top: 5px;
+}
